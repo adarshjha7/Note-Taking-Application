@@ -7,7 +7,8 @@ const deleteBtn = document.getElementById('deleteBtn');
 const editTitle = document.getElementById('editTitle');
 const editContent = document.getElementById('editContent');
 
-const API_URL = 'http://localhost:3000/notes';
+// const API_URL = 'http://localhost:3000/notes';
+const API_URL = '/notes';
 
 let currentNoteId = null;
 
