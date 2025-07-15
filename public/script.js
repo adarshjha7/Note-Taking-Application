@@ -7,7 +7,7 @@ const deleteBtn = document.getElementById('deleteBtn');
 const editTitle = document.getElementById('editTitle');
 const editContent = document.getElementById('editContent');
 
-const API_URL = 'https://note-taking-application-ude8.onrender.com/notes';
+const API_URL = 'http://localhost:3000/notes';
 
 let currentNoteId = null;
 
